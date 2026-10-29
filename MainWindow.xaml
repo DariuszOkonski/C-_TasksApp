@@ -27,6 +27,9 @@
         </Grid.RowDefinitions>
 
         <Button Grid.Row="5" Grid.Column="1" Content="Create Todo" />
-        <TextBox Grid.Row="3" Grid.Column="1" Background="#FF383838" Foreground="White" Text="" />
+        <TextBox Grid.Row="3" Grid.Column="1" Background="#FF1A1A1A" Foreground="White" Text="" />
+        <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel Background="#FF2a2a2a"></StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
